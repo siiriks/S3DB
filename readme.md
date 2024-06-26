@@ -1,4 +1,4 @@
-# Social Science Synthetic Data Benchmark
+# Applied Data Science Master Thesis, Utrecht University
 
 ## Inclusion criteria
 
