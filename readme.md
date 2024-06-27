@@ -13,31 +13,33 @@ Identify and replicate: Selected studies from open journals and replicated their
 ### 2. Dataset Creation
 Four datasets were created for evaluation:
 
-a) Bootstrapping (Resampling with Replacement)
+#### a) Bootstrapping (Resampling with Replacement)
 
-Purpose: Theoretical maximum reference.
-Goal: Find methods performing nearly as well.
-b) Bootstrapping with Independent Variables
+  Purpose: Theoretical maximum reference.
+  Goal: Find methods performing nearly as well.
 
-Purpose: Simplest baseline to outperform.
-Expectation: Not expected to perform well.
-c) Synthetic Data Generation Models (SDGMs)
+#### b) Bootstrapping with Independent Variables
 
-From the synthpop R package:
+  Purpose: Simplest baseline to outperform.
+  Expectation: Not expected to perform well.
 
-Parametric Model: Uses linear, logistic, and polytomous regressions.
-CART (Classification and Regression Trees): Captures non-linear relationships.
+#### c) Synthetic Data Generation Models (SDGMs)
+  From the synthpop R package:
+
+    Parametric Model: Uses linear, logistic, and polytomous regressions.
+    CART (Classification and Regression Trees): Captures non-linear relationships.
 
 ### 3. Evaluation Methods
 
 Two utility measures used:
 
-a) Root Mean Square Error (RMSE)
+##### a) Root Mean Square Error (RMSE)
 
-Purpose: Accuracy of replication.
-Interpretation: Lower values are better.
-b) Confidence Interval Overlap (CIO)
+  Purpose: Accuracy of replication.
+  Interpretation: Lower values are better.
+  
+##### b) Confidence Interval Overlap (CIO)
 
-Purpose: Similarity of estimates.
-Interpretation: High overlap indicates similarity.
+  Purpose: Similarity of estimates.
+  Interpretation: High overlap indicates similarity.
 
