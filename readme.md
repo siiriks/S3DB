@@ -43,7 +43,7 @@ Two utility measures used:
   Purpose: Similarity of estimates.
   Interpretation: High overlap indicates similarity.
 
-
+## References
 
 Snoke, J., Raab, G. M., Nowok, B., Dibben, C., & Slavkovic, A. (2018). General and specific utility measures for synthetic data. Journal of the Royal Statistical Society. Series a. Statistics in Society/Journal of the Royal Statistical Society. Series a, Statistics in Society, 181(3), 663–688. https://doi.org/10.1111/rssa.12358
 
